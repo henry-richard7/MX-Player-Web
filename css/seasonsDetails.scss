@@ -1,0 +1,122 @@
+.details{
+    overflow: hidden;
+    
+        .img{
+            width: 315px;
+            height: 480px;
+            float: left;
+            margin: 1px 11px 11px 1px;
+            
+        }
+        .info {
+            border: 5px solid silver;
+            overflow: hidden;
+            height: 480px;
+            padding: 2px;
+            font-size: 14.5px;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        .info h1 {
+            font-size: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 20px
+        }
+        .info p {
+            margin: 0 0 15px;
+            font-size: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .info span {
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3EC2CF
+        }
+        @media only screen and (max-width: 600px) {
+            overflow: hidden;
+    
+        .img{
+            width: 315px;
+            height: 300px;
+            float: left;
+            margin: 1px 10px 10px 10px;
+            img{
+                height: 100%;
+                width: 200px;
+                
+            }
+        }
+        .info {
+            border: 5px solid silver;
+            width: 95%;
+            height: 60%;
+            overflow: hidden;
+            padding: 2px;
+            font-size: 14.5px
+            
+        }
+        .info h1 {
+            font-size: 36px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 20px
+        }
+        .info p {
+            margin: 0 0 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .info span {
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3EC2CF
+        }
+        }
+
+}
+
+.row{
+    //padding-left: 2em;
+    @media only screen and (max-width: 600px) {
+        margin-bottom: 5px;
+        text-align:center;
+        
+    }
+    a{       
+        text-decoration: none;
+        color: #3EC2CF;
+        font-weight: bold;
+    }
+    #--Season-Card{
+            
+            background-color: #F0F2EF;
+            height: 50px;
+            width: 200px;
+            margin-top: 1em;
+            border-radius: 1em;
+            border-color: black;
+            border-style: solid;
+            margin-left: 2em;
+            
+            &:hover{
+                border-color: green;
+                transition: transform .2s;
+                transform: scale(.8);
+                
+            }
+          
+          
+            
+          }
+    }
+    .--SeasonName{
+        margin-top: 5px;
+        text-align: center;
+        font-size: 20.5px;
+        
+        @media only screen and (max-width: 600px) {
+            overflow: hidden;
+            margin-top: 8px;
+        }
+        
+    }

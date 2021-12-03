@@ -1,0 +1,46 @@
+.row{
+    overflow: hidden;
+    margin-left: 10px;
+    #--Channel-Card{      
+        background-color: #F0F2EF;
+        height: 350px;
+        max-width: 300px;
+        
+        margin-top: 1em;
+        border-radius: 1em;
+        border-color: black;
+        border-style: solid;
+        
+        &:hover{
+            border-color: green;
+            transition: transform .2s;
+            transform: scale(.8);
+            
+        }
+}
+}
+.TV_Channels{
+    margin-top: 1em;
+    width: 100%;
+    height: 80%;
+        
+
+}
+.loadMoreButton{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    button{
+        background-color: ghostwhite;
+        width: 200px;
+        height: 60px;
+        &:hover{
+            background-color: #264653;
+            color: white;
+            transition: all 0.3s ease;
+            border-style: solid;
+            border-color: black;
+            border-width: 4px;
+        }
+    }
+}

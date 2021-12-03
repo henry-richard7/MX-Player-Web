@@ -1,0 +1,42 @@
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+
+    #--Channel-Card{
+          
+            background-color: #F0F2EF;
+            height: 320px;
+            max-width: 250px;
+            
+            margin-top: 1em;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 1em;
+            border-color: black;
+            border-style: solid;
+            
+            &:hover{
+                border-color: green;
+                transition: transform .2s;
+                transform: scale(.8);
+                
+            }
+                 
+    }
+    .--ChannelName{
+            text-align: center;
+            font-size: large;     
+        
+    }
+}
+
+.TV_Channels{
+        margin-top: 1em;
+        width: 100%;
+        height: 80%;
+        margin-left: auto;
+        margin-right: auto;   
+    
+    
+}
